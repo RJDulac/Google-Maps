@@ -1,6 +1,6 @@
 import {} from "googlemaps";
 
-interface Mappable {
+export interface Mappable {
   markerContent(): string;
   location: {
     lat: number;
